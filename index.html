@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--font awesome  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+
+</head>
+<body>
+
+    <div class="contanier">
+      <div class="section text-center w-50 m-auto my-5 p-5">
+        <h1 class="text-info fw-5">Smart Login System</h1>
+        <div>
+          <input type="email"  id="loginEmail" class="form-control my-3 btn-outline-light bg-transparent text-light" placeholder="Enter your email">
+        </div>
+        <div>
+         <input type="password"  id="loginPass" class="form-control my-3 " placeholder="Enter your password">
+        </div>
+        <p class="text-danger d-none" id="loginMessage">All inputs is required</p>
+        <p class="text-danger d-none" id="loginMessageincorrect">incorrect email and password</p>
+        <button id="login" class="btn btn-outline-info w-100 my-3">Login</button>
+        <p class="text-white fw-5 fs-3">Don’t have an account? <a href="./signup.html" class="text-white ">Sign Up</a></p>
+      </div>
+    
+    </div>
+    
+
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
